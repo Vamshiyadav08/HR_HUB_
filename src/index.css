@@ -1,0 +1,62 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Fira Sans,Helvetica Neue,Apple Color Emoji,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+  
+  
+}
+body{
+  overflow: hidden;  
+  font-size: 0.8rem;    
+                                                                                                                                  
+}
+.light-theme{
+  --bg-clr:#fff;
+  --text-clr:#333;
+  --main-heading:#2679b5;
+  --para-clr:#393939;
+  --nav-bg-clr : #f8f8f8;
+  --nav-text-clr : #585858;
+  --label-clr : #393939;
+  --data-details-header-clr:#393939;
+  --data-details-clr:#393939;
+  --attendence-calender-header-bg-clr:#F7FAFD;
+  --sidebar-bg-clr:#f8f8f8;
+  --profile-input-bg-clr:#F3F9FC;
+}
+.dark-theme{
+  --bg-clr:#393939;
+  --text-clr:#fff;
+  --main-heading:#2679b5;
+  --para-clr:#f8f8f8;
+  --nav-bg-clr : #393939;
+  --nav-text-clr : #fff;
+  --label-clr : #fff;
+  --data-details-header-clr:#fff;
+  --data-details-clr:#393939;
+  --attendence-calender-header-bg-clr:#F7FAFD;
+  --sidebar-bg-clr:#202123;
+  --profile-input-bg-clr:#393939;
+}
+h3{
+  color: #2679b5;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.valid-check{
+  color: red;
+}
+@media (max-width:759px) {
+  body{
+    font-size: 0.7rem;
+  }
+  
+}
+
